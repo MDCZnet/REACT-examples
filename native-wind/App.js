@@ -5,7 +5,7 @@ import { Text, View } from 'react-native';
 export default function App() {
   return (
     <View className="flex-1 items-center justify-center bg-red-400">
-      <Text>Native Wind Test</Text>
+      <Text>Native Wind Example</Text>
       <StatusBar style="auto" />
     </View>
   );
