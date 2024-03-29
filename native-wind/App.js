@@ -2,10 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Text, View } from 'react-native';
 
+import Karta from './screens/Karta';
+
 export default function App() {
   return (
-    <View className="flex-1 items-center justify-center bg-red-400">
-      <Text>Native Wind Example</Text>
+    <View>
+      <Text className="text-red-600">Native Wind Example</Text>
+      <Karta />
       <StatusBar style="auto" />
     </View>
   );
