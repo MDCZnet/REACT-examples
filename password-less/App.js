@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import { theme } from './src/core/theme'
 import {
+  ActivationScreen,
   LoginScreen,
   Dashboard,
 } from './src/screens'
@@ -21,6 +22,7 @@ export default function App() {
           }}
         >
           <Stack.Screen name="LoginScreen" component={LoginScreen} />
+          <Stack.Screen name="ActivationScreen" component={ActivationScreen} />
           <Stack.Screen name="Dashboard" component={Dashboard} />
         </Stack.Navigator>
       </NavigationContainer>

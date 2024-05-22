@@ -18,12 +18,14 @@ export default function LoginScreen({ navigation }) {
       return
     } 
 
-    axios.get('https://zap.mdcz.net/login/martin@mdcz.net/wffewfwfwefewf6666few')
+    let pin = Math.floor(1000 + Math.random() * 9000)
+
+    axios.get('https://zap.mdcz.net/login/' + email.value + '/' + pin)
     
-    // navigation.reset({
-    //   index: 0,
-    //   routes: [{ name: 'Dashboard' }],
-    // })
+    navigation.reset({
+      index: 0,
+      routes: [{ name: 'ActivationScreen' }],
+    })
   }
 
   return (
