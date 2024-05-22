@@ -1,20 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react'
+import Aktivace from './screens/Aktivace'
+import Karta from './screens/Karta'
+import Prihlaseni from './screens/Prihlaseni'
+
+import { Provider } from 'react-native-paper'
+import { theme } from './theme'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
+
+const Stack = createStackNavigator()
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+    <Provider theme={theme}>
+      <NavigationContainer>
+        <Stack.Navigator
+          initialRouteName='Přihlášení do aplikace'
+          screenOptions={{
+            headerShown: true,
+          }}
+        >
+          <Stack.Screen name='Přihlášení do aplikace' component={Prihlaseni} />
+          <Stack.Screen name='Aktivace aplikace' component={Aktivace} />
+          <Stack.Screen name='Zákaznická karta' component={Karta} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </Provider>
+  )
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
