@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "modal",
-    "slug": "modal",
+    "name": "blank",
+    "slug": "blank",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,9 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
     "ios": {
       "supportsTablet": true
     },
@@ -22,14 +19,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.martindittrich.modal"
+      "package": "com.mdcz.blank"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "53b5713f-a0a2-4e04-be3d-99b250453788"
+        "projectId": "a129395e-29ac-48ae-b3cb-7cc8f2a49695"
       }
     }
   }
