@@ -35,7 +35,6 @@ export default function LoginScreen({ navigation }) {
       </Paragraph>
       <TextInput
         label="E-mail"
-        returnKeyType="next"
         value={email.value}
         onChangeText={(text) => setEmail({ value: text, error: '' })}
         error={!!email.error}
