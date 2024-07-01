@@ -1,5 +1,5 @@
 {
-  "name": "async-storage",
+  "name": "expo-store",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
@@ -11,6 +11,7 @@
   "dependencies": {
     "expo": "~51.0.14",
     "expo-status-bar": "~1.12.1",
+    "expo-storage": "^48.1.0",
     "react": "18.2.0",
     "react-native": "0.74.2"
   },

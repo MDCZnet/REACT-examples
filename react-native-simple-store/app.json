@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "async-storage",
-    "slug": "async-storage",
+    "name": "react-native-simple-store",
+    "slug": "react-native-simple-store",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,14 +19,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mdcz.asyncstorage"
+      "package": "com.mdcz.reactnativesimplestore"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "015f6d16-5850-481c-bbe2-22b11dd9b3c6"
+        "projectId": "a353bbd9-0b5e-4054-98dd-4ce540c7fd1d"
       }
     }
   }

@@ -1,5 +1,5 @@
 {
-  "name": "async-storage",
+  "name": "mmkv",
   "version": "1.0.0",
   "main": "expo/AppEntry.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "expo": "~51.0.14",
     "expo-status-bar": "~1.12.1",
     "react": "18.2.0",
-    "react-native": "0.74.2"
+    "react-native": "0.74.2",
+    "react-native-mmkv-storage": "^0.9.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

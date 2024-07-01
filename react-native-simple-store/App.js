@@ -1,10 +1,17 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import store from 'react-native-simple-store';
 
 export default function App() {
+  store.push('pin', 1234);
+
+  store.get('pin').then(
+    res => pin=(res)
+  );
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>PIN: {pin}</Text>
       <StatusBar style="auto" />
     </View>
   );
