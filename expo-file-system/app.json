@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-simple-store",
-    "slug": "react-native-simple-store",
+    "name": "blank",
+    "slug": "blank",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,14 +19,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.mdcz.reactnativesimplestore"
+      "package": "com.mdcz.blank"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "a353bbd9-0b5e-4054-98dd-4ce540c7fd1d"
+        "projectId": "a129395e-29ac-48ae-b3cb-7cc8f2a49695"
       }
     }
   }
